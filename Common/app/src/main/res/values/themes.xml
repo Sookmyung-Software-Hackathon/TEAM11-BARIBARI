@@ -12,12 +12,8 @@
         <!-- Status bar color. -->
 <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
         <item name="colorPrimaryDark">@color/mint</item>
-        <!-- Customize your theme here. -->
-    </style>
-
-    <style name="Theme.Common.NoActionBar">
-        <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
     </style>
 
     <style name="Theme.Common.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
