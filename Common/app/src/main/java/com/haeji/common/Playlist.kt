@@ -11,17 +11,6 @@ class Playlist : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_playlist)
 
-        val items = mutableListOf<String>()
-        items.add("a")
-        items.add("b")
-        items.add("c")
-        Log.d("itemlist", items.toString())
-
-//        val rv = binding.playlistRv
-        val rv = findViewById<RecyclerView>(R.id.playlistRv)
-        val rvAdapter = PlaylistRVAdapter(items)
-        rv.adapter = rvAdapter
-        rv.layoutManager = LinearLayoutManager(this)
 
     }
 
