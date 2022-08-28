@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".QuizList">
+
+    <Button
+        android:id="@+id/musicBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/radius"
+        android:layout_marginBottom="28dp"
+        android:text="음악"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/movieBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/radius"
+        android:layout_marginBottom="28dp"
+        android:text="영화, 드라마"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/wordBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/radius"
+        android:text="신조어"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+</LinearLayout>
