@@ -12,8 +12,10 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
+
         binding.chatBtn.setOnClickListener {
-            val intent = Intent(this, Playlist::class.java)
+            val intent = Intent(this, MyPage::class.java)
             startActivity(intent)
 
         }
