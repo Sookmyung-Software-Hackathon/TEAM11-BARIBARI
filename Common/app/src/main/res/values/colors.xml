@@ -12,6 +12,8 @@
     <color name="lightOrange">#FFC5A1</color>
     <color name="Orange">#F8A978</color>
     <color name="Gray">#90E1E1E1</color>
+    <color name="Red">#A4F44336</color>
+    <color name="Green">#A45FF436</color>
 
 
 </resources>
