@@ -7,12 +7,12 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class ResultActivity : AppCompatActivity() {
+class ResultActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val title = intent.getIntExtra(Constants.CORRECT_ANSWERS,0)
+        val title = intent.getIntExtra("quiz",0)
         Log.d("점수 확인",title.toString())
         val score : TextView = findViewById(R.id.score)
         score.text = title.toString()

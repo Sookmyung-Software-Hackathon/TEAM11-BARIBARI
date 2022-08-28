@@ -1,6 +1,6 @@
 package com.haeji.common
 
-object Constants {
+object Constants2 {
     const val USER_NAME : String = "user_name"
     const val TOTAL_QUESTIONS: String = "total_question"
     const val CORRECT_ANSWERS : String = "correct_answer"
@@ -9,51 +9,51 @@ object Constants {
         val questionsList = ArrayList<TestData>()
         val que1 = TestData(
             1,
-            R.drawable.quiz1, //문제
-            "왠지 열받는다",
-            "웬일이야",
-            "어쩐지 열심히 하더라",
+            R.drawable.quiz2_1, //문제
+            "김광석 - 서른즈음에",
+            "휘성 - 아이처럼",
+            "에프엑스 - 첫사랑니",
             2
         )
         questionsList.add(que1)
 
         val que2 = TestData(
             1,
-            R.drawable.quiz2, //문제
-            "OTL",
-            "좋댓구알",
-            "야타족",
+            R.drawable.quiz2_2, //문제
+            "윤하",
+            "씨스타",
+            "양희은",
             1
         )
         questionsList.add(que2)
 
         val que3 = TestData(
             1,
-            R.drawable.quiz3, //문제
-            "982",
-            "사바사",
-            "갓생",
+            R.drawable.quiz2_3, //문제
+            "해피",
+            "심심해",
+            "나이스",
             3
         )
         questionsList.add(que3)
 
         val que4 = TestData(
             1,
-            R.drawable.quiz4, //문제
-            "룰라를 탈퇴했던 김지현을 의미",
-            "의도치않은 말실수를 수습하려는 모습",
-            "놀이기구 이름",
-            2
+            R.drawable.quiz2_4, //문제
+            "소녀시대",
+            "자전거 탄 풍경",
+            "브라운아이즈",
+            3
         )
         questionsList.add(que4)
 
         val que5 = TestData(
             1,
-            R.drawable.quiz5, //문제
-            "9977-할 이야기가 많다",
-            "486-사랑해",
-            "2222-격한 공감",
-            3
+            R.drawable.quiz2_5, //문제
+            "왁스",
+            "버즈",
+            "데이식스",
+            1
         )
         questionsList.add(que5)
 

@@ -13,10 +13,22 @@
             android:name=".ResultActivity"
             android:exported="false" />
         <activity
+            android:name=".ResultActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity3"
+            android:exported="false" />
+        <activity
             android:name=".GenerationTest"
             android:exported="false" />
         <activity
             android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz2"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz3"
             android:exported="false" />
         <activity
             android:name=".ChattingRoom"
