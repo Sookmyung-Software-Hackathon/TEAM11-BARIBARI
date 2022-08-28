@@ -23,10 +23,19 @@ class Playlist : AppCompatActivity() {
         playListRV.adapter = playlistRvAdapter
 
         datas.apply {
-            add(AlbumData(img = R.drawable.album, title = "타인의 기억", singer = "넬"))
-            add(AlbumData(img = R.drawable.album, title = "summer", singer = "tvt"))
-            add(AlbumData(img = R.drawable.album, title = "머물러줘", singer = "성규"))
-
+            add(AlbumData(img = R.drawable.album, title = "으르렁", singer = "엑소"))
+            add(AlbumData(img = R.drawable.album, title = "다이너마이트", singer = "방탄소년단"))
+            add(AlbumData(img = R.drawable.album, title = "Heart Beat", singer = "2PM"))
+            add(AlbumData(img = R.drawable.album, title = "아주 나이스", singer = "세븐틴"))
+            add(AlbumData(img = R.drawable.album, title = "cheer up", singer = "트와이스"))
+            add(AlbumData(img = R.drawable.album, title = "빨간맛", singer = "레드벨벳"))
+            add(AlbumData(img = R.drawable.album, title = "이게 무슨 일이야", singer = "B1A4"))
+            add(AlbumData(img = R.drawable.album, title = "NO NO NO", singer = "에이핑크"))
+            add(AlbumData(img = R.drawable.album, title = "핫이슈", singer = "포미닛"))
+            add(AlbumData(img = R.drawable.album, title = "내꺼하자", singer = "인피니트"))
+            add(AlbumData(img = R.drawable.album, title = "씨스타", singer = "touch my body"))
+            add(AlbumData(img = R.drawable.album, title = "샤이니", singer = "링딩동"))
+            add(AlbumData(img = R.drawable.album, title = "에프엑스", singer = "첫사랑니"))
 
             playlistRvAdapter.datas = datas
             playlistRvAdapter.notifyDataSetChanged()

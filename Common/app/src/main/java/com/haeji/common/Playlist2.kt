@@ -27,22 +27,22 @@ class Playlist2 : AppCompatActivity() {
         playListRV.adapter = playlistRvAdapter
 
         datas.apply {
-            add(AlbumData(img = R.drawable.album, title = "프리스타일", singer = "y"))
-            add(AlbumData(img = R.drawable.album, title = "브라운아이즈", singer = "벌써 일년"))
-            add(AlbumData(img = R.drawable.album, title = "버즈", singer = "가시"))
-            add(AlbumData(img = R.drawable.album, title = "모세", singer = "사랑인걸"))
-            add(AlbumData(img = R.drawable.album, title = "윤하", singer = "우산"))
-            add(AlbumData(img = R.drawable.album, title = "이지", singer = "응급실"))
-            add(AlbumData(img = R.drawable.album, title = "린", singer = "사랑했잖아"))
-            add(AlbumData(img = R.drawable.album, title = "KCM", singer = "흑백사진"))
-            add(AlbumData(img = R.drawable.album, title = "토이", singer = "좋은 사람"))
-            add(AlbumData(img = R.drawable.album, title = "휘성", singer = "가슴 시린 이야기"))
-            add(AlbumData(img = R.drawable.album, title = "성시경", singer = "거리에서"))
-            add(AlbumData(img = R.drawable.album, title = "김동률", singer = "아이처럼"))
-            add(AlbumData(img = R.drawable.album, title = "SS501", singer = "내머리가 나빠서"))
-            add(AlbumData(img = R.drawable.album, title = "왁스", singer = "화장을 고치고"))
-            add(AlbumData(img = R.drawable.album, title = "플라워", singer = "Endless"))
-            add(AlbumData(img = R.drawable.album, title = "프리스타일", singer = "수취인불명"))
+            add(AlbumData(img = R.drawable.album, singer = "프리스타일", title = "y"))
+            add(AlbumData(img = R.drawable.album, singer = "브라운아이즈", title = "벌써 일년"))
+            add(AlbumData(img = R.drawable.album, singer = "버즈", title = "가시"))
+            add(AlbumData(img = R.drawable.album, singer = "모세", title = "사랑인걸"))
+            add(AlbumData(img = R.drawable.album, singer = "윤하", title = "우산"))
+            add(AlbumData(img = R.drawable.album, singer = "이지", title = "응급실"))
+            add(AlbumData(img = R.drawable.album, singer = "린", title = "사랑했잖아"))
+            add(AlbumData(img = R.drawable.album, singer = "KCM", title = "흑백사진"))
+            add(AlbumData(img = R.drawable.album, singer = "토이", title = "좋은 사람"))
+            add(AlbumData(img = R.drawable.album, singer = "휘성", title = "가슴 시린 이야기"))
+            add(AlbumData(img = R.drawable.album, singer = "성시경", title = "거리에서"))
+            add(AlbumData(img = R.drawable.album, singer = "김동률", title = "아이처럼"))
+            add(AlbumData(img = R.drawable.album, singer = "SS501", title = "내머리가 나빠서"))
+            add(AlbumData(img = R.drawable.album, singer = "왁스", title = "화장을 고치고"))
+            add(AlbumData(img = R.drawable.album, singer = "플라워", title = "Endless"))
+            add(AlbumData(img = R.drawable.album, singer = "프리스타일", title = "수취인불명"))
 
 
             playlistRvAdapter.datas = datas
