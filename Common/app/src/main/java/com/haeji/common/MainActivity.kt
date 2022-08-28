@@ -1,7 +1,9 @@
 package com.haeji.common
 
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.haeji.common.databinding.ActivityMainBinding
 
@@ -13,8 +15,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         // 채팅
         binding.chatBtn.setOnClickListener {
-            val intent = Intent(this, Chatting::class.java)
-            startActivity(intent)
+            //val intent = Intent(this, Chatting::class.java)
+            //startActivity(intent)
+            val builder = AlertDialog.Builder(this)
+            builder
+                .setTitle("채팅")
+                .setMessage("랜덤 채팅은 YES, 일반 채팅은 NO를 누르세요")
+                .setPositiveButton("YES",
+                    DialogInterface.OnClickListener { dialog, id ->
+                        val intent = Intent(this, ChattingRoom::class.java)
+                        startActivity(intent)
+                    })
+                .setNegativeButton("NO",
+                    DialogInterface.OnClickListener { dialog, id ->
+                        // Cancel 버튼 선택 시 수행
+                        val intent = Intent(this, Chatting::class.java)
+                        startActivity(intent)
+                    })
+// Create the AlertDialog object and return it
+            builder.create()
+            builder.show()
 
         }
         // 마이페이지
