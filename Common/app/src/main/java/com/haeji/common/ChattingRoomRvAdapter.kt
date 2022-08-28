@@ -27,18 +27,14 @@ class ChattingRoomRvAdapter(private val context : Context) : RecyclerView.Adapte
         private val user1_chat : TextView = itemView.findViewById(R.id.user1_chat)
         private val user1_img : ImageView = itemView.findViewById(R.id.user1_img)
 
-        private val user2_name : TextView = itemView.findViewById(R.id.user2_name)
         private val user2_chat : TextView = itemView.findViewById(R.id.user2_chat)
-        private val user2_img : ImageView = itemView.findViewById(R.id.user2_img)
+
 
         fun bindDatas(item: ChattingData) {
             user1_name.text = item.name
             user1_chat.text = item.chat
             Glide.with(itemView).load(item.img).into(user1_img)
-
-            user2_name.text = item.name
             user2_chat.text = item.chat
-            Glide.with(itemView).load(item.img).into(user2_img)
 
         }
     }

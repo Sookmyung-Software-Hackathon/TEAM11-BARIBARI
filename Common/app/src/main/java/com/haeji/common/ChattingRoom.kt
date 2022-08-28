@@ -3,6 +3,7 @@ package com.haeji.common
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class ChattingRoom : AppCompatActivity() {
@@ -12,6 +13,9 @@ class ChattingRoom : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chatting_room)
+
+        val name : TextView = findViewById(R.id.chattingroom_title)
+        name.text = "바리스타님와의 대화"
 
         initRecycler()
     }
@@ -23,8 +27,7 @@ class ChattingRoom : AppCompatActivity() {
 
         datas.apply {
             add(ChattingData(img = R.drawable.album, name = "바리스타", chat = "안녕하세요"))
-            add(ChattingData(img = R.drawable.album, name = "바리스타2", chat = "안녕하세요"))
-            add(ChattingData(img = R.drawable.album, name = "바리스타3", chat = "안녕하세요"))
+            add(ChattingData(img = R.drawable.album, name = "바리스타", chat = "^^"))
 
 
             chattingRoomRvAdapter.datas = datas
