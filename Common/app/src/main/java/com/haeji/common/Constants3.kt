@@ -43,7 +43,7 @@ object Constants3 {
             "태양의 후예- 나 지금 떨고 있니?",
             "겨울연가- 사랑은 돌아오는거야!",
             "드림하이- 농약같은 가시나",
-            1
+            3
         )
         questionsList.add(que4)
 
@@ -53,7 +53,7 @@ object Constants3 {
             "스타워즈",
             "ET",
             "인터스텔라",
-            3
+            2
         )
         questionsList.add(que5)
 

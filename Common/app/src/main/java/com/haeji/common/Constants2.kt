@@ -10,9 +10,10 @@ object Constants2 {
         val que1 = TestData(
             1,
             R.drawable.quiz2_1, //문제
-            "김광석 - 서른즈음에",
-            "휘성 - 아이처럼",
-            "에프엑스 - 첫사랑니",
+
+            "윤하",
+            "씨스타",
+            "양희은",
             2
         )
         questionsList.add(que1)
@@ -20,9 +21,9 @@ object Constants2 {
         val que2 = TestData(
             1,
             R.drawable.quiz2_2, //문제
-            "윤하",
-            "씨스타",
-            "양희은",
+            "김광석 - 서른즈음에",
+            "휘성 - 아이처럼",
+            "에프엑스 - 첫사랑니",
             1
         )
         questionsList.add(que2)
