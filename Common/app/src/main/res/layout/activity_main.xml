@@ -5,31 +5,107 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightYellow"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/MyPageBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/radius"
+        android:backgroundTint="@color/Orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/chatBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyPageBtn">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="퀴즈"
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/album" />
+            android:id="@+id/imageView5"
+            android:layout_width="305dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radius"
+            app:srcCompat="@drawable/quiz" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="세대 테스트"
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/album" />
+            android:id="@+id/imageView6"
+            android:layout_width="305dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/generation_quiz" />
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/album" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="X, Y, Z  추천 플레이리스트"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/x_playlist" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/album"
+                app:srcCompat="@drawable/y_playlist" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/album"
+                app:srcCompat="@drawable/z_playlist" />
+        </LinearLayout>
     </LinearLayout>
 
     <ImageView
@@ -53,4 +129,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/chat_btn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
