@@ -131,7 +131,7 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/album"
+                    android:src="@drawable/y_playlist"
                     app:srcCompat="@drawable/y_playlist" />
             </androidx.cardview.widget.CardView>
 
@@ -150,7 +150,7 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/album"
+                    android:src="@drawable/z_playlist"
                     app:srcCompat="@drawable/z_playlist" />
             </androidx.cardview.widget.CardView>
 
