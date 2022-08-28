@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Common">
         <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".ChattingRoom"
+            android:exported="false" />
+        <activity
             android:name=".MyPage"
             android:exported="false" />
         <activity

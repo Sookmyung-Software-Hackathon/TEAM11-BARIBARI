@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/Gray"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
@@ -14,9 +15,10 @@
         android:textStyle="bold"
         android:text="노래제목"
         android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="10dp" />
 
     <View
         android:layout_width="0dp"
@@ -27,7 +29,7 @@
     <ImageView
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="9dp"
         android:src="@drawable/like"
         android:layout_marginRight="20dp"
         app:layout_constraintRight_toRightOf="parent"

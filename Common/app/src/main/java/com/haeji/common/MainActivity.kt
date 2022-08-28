@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.chatBtn.setOnClickListener {
-            val intent = Intent(this, MyPage::class.java)
+            val intent = Intent(this, ChattingRoom::class.java)
             startActivity(intent)
 
         }
