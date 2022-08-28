@@ -45,9 +45,9 @@
 
 ### 🧑‍💻핵심 기술
 
-![kotlin.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06e9556c-ffbc-482c-bb5e-5fb3cf11daa7/kotlin.png)
+![kotlin](https://user-images.githubusercontent.com/83302507/187071918-dbcacbd6-d06e-4272-b946-70ee33833a5d.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3a3fc13-6f0d-4333-b3dc-c235f6c00c09/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/83302507/187071954-4fa437ea-686e-4b65-a81d-0b03f5996eb9.png)
 
 Kotlin, Android Studio
 
@@ -82,13 +82,13 @@ Kotlin, Android Studio
 
 ## 🔶페이지 구성(시나리오)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87624dca-75de-4470-b188-491513e39b13/Untitled.png)
+![Untitled (1)](https://user-images.githubusercontent.com/83302507/187071993-c57c4645-becd-4999-999e-f175d219ed2b.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8260587-15eb-4161-b532-fa99a8512ab1/Untitled.png)
+![Untitled (2)](https://user-images.githubusercontent.com/83302507/187072015-8bb98610-4e2d-4466-9fde-55f62b0f8148.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/333253dc-11af-45e9-9523-f2b11f824bee/Untitled.png)
+![Untitled (3)](https://user-images.githubusercontent.com/83302507/187072032-ea25f774-882c-4296-bb24-b325e04e54e3.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a999a405-efab-492d-98a6-710dace8d7b5/Untitled.png)
+![Untitled (4)](https://user-images.githubusercontent.com/83302507/187072046-957c05c4-7adf-476f-8a8f-f1d4d4f72ea0.png)
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f28b9e6c-fc48-4b09-95d6-35c09c959ed7/Untitled.png)
 
