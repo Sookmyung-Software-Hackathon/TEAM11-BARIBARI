@@ -12,7 +12,7 @@ class ResultActivity3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val title = intent.getIntExtra("quiz",0)
+        val title = intent.getIntExtra("quiz3",0)
         Log.d("점수 확인",title.toString())
         val score : TextView = findViewById(R.id.score)
         score.text = title.toString()
