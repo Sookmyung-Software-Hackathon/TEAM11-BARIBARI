@@ -163,7 +163,7 @@ class Quiz : AppCompatActivity(), View.OnClickListener {
                             setQuestion()
                         }
                         else -> {
-                            val intent = Intent(this, MainActivity::class.java) //이름값을 result에 넘겨줌
+                            val intent = Intent(this, ResultActivity::class.java) //이름값을 result에 넘겨줌
                             intent.putExtra(Constants.USER_NAME, mUserName)//액티비티간 값을 넘겨줄때 사용
                             intent.putExtra(Constants.CORRECT_ANSWERS, mCorrectAnswers)
                             intent.putExtra(Constants.TOTAL_QUESTIONS, mQuestionList!!.size)
