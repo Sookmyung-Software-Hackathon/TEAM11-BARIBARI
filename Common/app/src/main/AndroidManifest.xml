@@ -55,6 +55,12 @@
             android:name=".Playlist"
             android:exported="false" />
         <activity
+            android:name=".Playlist2"
+            android:exported="false" />
+        <activity
+            android:name=".Playlist3"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
     </application>
