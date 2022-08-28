@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             val builder = AlertDialog.Builder(this)
             builder
                 .setTitle("채팅")
-                .setMessage("랜덤 채팅은 YES, 일반 채팅은 NO를 누르세요")
+                .setMessage("랜덤 채팅은 Y, " + "일반 채팅은 N을 누르세요")
                 .setPositiveButton("YES",
                     DialogInterface.OnClickListener { dialog, id ->
                         val intent = Intent(this, ChattingRoom::class.java)
@@ -51,6 +51,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         // 테스트
+        binding.genquizimg.setOnClickListener {
+            val intent = Intent(this, GenerationTest::class.java)
+            startActivity(intent)
+        }
 
         // 플레이리스트
         binding.XplaylistImg.setOnClickListener {
