@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
         // 퀴즈
         binding.quizImg.setOnClickListener {
-                val intent = Intent(this, QuizList::class.java)
+            val intent = Intent(this, QuizList::class.java)
             startActivity(intent)
 
         }
@@ -58,6 +58,20 @@ class MainActivity : AppCompatActivity() {
 
         // 플레이리스트
         binding.XplaylistImg.setOnClickListener {
+            val intent = Intent(this, Playlist3::class.java)
+            startActivity(intent)
+
+        }
+
+        // 플레이리스트
+        binding.YplaylistImg.setOnClickListener {
+            val intent = Intent(this, Playlist2::class.java)
+            startActivity(intent)
+
+        }
+
+        // 플레이리스트
+        binding.ZplaylistImg.setOnClickListener {
             val intent = Intent(this, Playlist::class.java)
             startActivity(intent)
 

@@ -9,6 +9,7 @@
     tools:context=".Playlist">
 
     <TextView
+        android:id="@+id/generation_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="2dp"
