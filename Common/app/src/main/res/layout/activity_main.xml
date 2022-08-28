@@ -111,7 +111,7 @@
                 <ImageView
                     android:id="@+id/XplaylistImg"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:src="@drawable/x_playlist" />
             </androidx.cardview.widget.CardView>
@@ -129,7 +129,7 @@
                 <ImageView
                     android:id="@+id/YplaylistImg"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:src="@drawable/y_playlist"
                     app:srcCompat="@drawable/y_playlist" />
@@ -148,7 +148,7 @@
                 <ImageView
                     android:id="@+id/ZplaylistImg"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_height="match_parent"
                     android:scaleType="fitXY"
                     android:src="@drawable/z_playlist"
                     app:srcCompat="@drawable/z_playlist" />
