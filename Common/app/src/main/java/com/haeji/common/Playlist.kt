@@ -33,9 +33,8 @@ class Playlist : AppCompatActivity() {
             add(AlbumData(img = R.drawable.album, title = "NO NO NO", singer = "에이핑크"))
             add(AlbumData(img = R.drawable.album, title = "핫이슈", singer = "포미닛"))
             add(AlbumData(img = R.drawable.album, title = "내꺼하자", singer = "인피니트"))
-            add(AlbumData(img = R.drawable.album, title = "씨스타", singer = "touch my body"))
-            add(AlbumData(img = R.drawable.album, title = "샤이니", singer = "링딩동"))
-            add(AlbumData(img = R.drawable.album, title = "에프엑스", singer = "첫사랑니"))
+            add(AlbumData(img = R.drawable.album, title = "touch my body", singer = "씨스타"))
+            add(AlbumData(img = R.drawable.album, title = "링딩동", singer = "샤이니"))
 
             playlistRvAdapter.datas = datas
             playlistRvAdapter.notifyDataSetChanged()
