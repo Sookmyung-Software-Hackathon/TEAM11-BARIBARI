@@ -94,7 +94,7 @@ Kotlin, Android Studio
 
 ![Untitled (6)](https://user-images.githubusercontent.com/83302507/187072215-561e21b8-aa0a-4b0e-8102-fb69d361495f.png)
 
-![Untitled (7)](https://user-images.githubusercontent.com/83302507/187072219-b15ed253-b91f-4965-bc41-dfba5793f09b.png)
+![Untitled (10)](https://user-images.githubusercontent.com/83302507/187072410-b080bc69-069b-4e0a-83ad-2f49376b0872.png)
 
 ![Untitled (8)](https://user-images.githubusercontent.com/83302507/187072341-6b8d1c63-98ec-468e-94a7-0abec77a5827.png)
 
