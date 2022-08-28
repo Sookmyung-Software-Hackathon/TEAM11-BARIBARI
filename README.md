@@ -90,12 +90,12 @@ Kotlin, Android Studio
 
 ![Untitled (4)](https://user-images.githubusercontent.com/83302507/187072046-957c05c4-7adf-476f-8a8f-f1d4d4f72ea0.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f28b9e6c-fc48-4b09-95d6-35c09c959ed7/Untitled.png)
+![Untitled (5)](https://user-images.githubusercontent.com/83302507/187072176-2cc5a649-06b2-4282-a387-74bb5e9864dd.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60066cb1-62af-429b-b238-d10b5fd513af/Untitled.png)
+![Untitled (6)](https://user-images.githubusercontent.com/83302507/187072215-561e21b8-aa0a-4b0e-8102-fb69d361495f.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0f3930d-1195-41f3-9413-bd71483f5665/Untitled.png)
+![Untitled (7)](https://user-images.githubusercontent.com/83302507/187072219-b15ed253-b91f-4965-bc41-dfba5793f09b.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c48763a3-9a3f-41c1-bf1a-9ccff223e8c2/Untitled.png)
+![Untitled (8)](https://user-images.githubusercontent.com/83302507/187072341-6b8d1c63-98ec-468e-94a7-0abec77a5827.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2d1970c-c812-435c-87a0-4196792dbe1b/Untitled.png)
+![Untitled (9)](https://user-images.githubusercontent.com/83302507/187072342-3ea079b2-c1cf-49f8-b209-84899762b184.png)
